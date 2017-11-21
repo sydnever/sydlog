@@ -1,9 +1,11 @@
 package syd
 
 import (
-	"log"
+	"fmt"
+	"time"
 )
 
-func sydlog(str string) {
-	log.Println(str)
+func Sydlog(str string) {
+	fmt.Print(time.Now())
+	fmt.Println(str)
 }
